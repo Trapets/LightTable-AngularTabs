@@ -8,4 +8,4 @@ Replace:
 
 ## TODO
 - [ ] path for linux
-
+- [ ] instead of changing new-dark.css load custom css on startup [wiki](https://github.com/LightTable/LightTable/wiki/FAQ#how-do-i-load-custom-css-files-at-startup).
