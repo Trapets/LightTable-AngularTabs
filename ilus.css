@@ -3,5 +3,5 @@
 ***********************************************************/
 #multi .list .active,
 #multi .list li:hover {
-  border-radius: initial;
+  border-radius: 0px !important;
 }
