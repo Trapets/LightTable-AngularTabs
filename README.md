@@ -1,11 +1,11 @@
 # Angular tabs in LightTable
 
-Edited new-dark.css for the [LightTable](http://www.lighttable.com) to display angular tabs.
+Custom css-file for the [LightTable](http://www.lighttable.com) to display angular tabs.
 
 ## Install
-Replace:
-* Windows `c:\Program Files (x86)\LightTable\core\css\skins\`
+Copy ilus.css to:
+* Windows `c:\Users\USERNAME\AppData\Local\LightTable\User\`
+* Linux `/home/USERNAME/.config/LightTable/User/`
 
-## TODO
-- [ ] path for linux
-- [ ] instead of changing new-dark.css load custom css on startup [wiki](https://github.com/LightTable/LightTable/wiki/FAQ#how-do-i-load-custom-css-files-at-startup).
+Add `:lt.objs.plugins/load-css` into your user.behaviors:
+`[:app :lt.objs.plugins/load-css "/full/path/to/ilus.css"]`
